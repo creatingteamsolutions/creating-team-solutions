@@ -5,8 +5,10 @@ import HealthyTeamFull from "../../images/full/healthy-team-full.jpg";
 import LastingCultureFull from "../../images/full/lasting-culture-full.jpg";
 import LeadershipDistanceFull from "../../images/full/leadershipDistance-full.jpg";
 import PatientSafetyFull from "../../images/full/patient-safety-full.jpg";
+import RebuildFull from "../../images/full/rebuild-full.jpg";
 import ReflectionOnImperfectionFull from "../../images/full/reflection-on-imperfection-full.jpg";
 import SteppingFull from "../../images/full/stepping-full.jpg";
+import TeamOverboardFull from "../../images/full/team-overboard-full.jpg";
 import TeamSteppsFull from "../../images/full/teamStepps-full.jpg";
 import TemperamentFull from "../../images/full/temperament-full.jpg";
 import TransformStoryFull from "../../images/full/transformStory-full.jpg";
@@ -21,6 +23,25 @@ export interface WorkshopDescription {
 }
 
 export const workshopDescriptions: WorkshopDescription[] = [
+    {
+        id: WorkshopId.TeamOverboard,
+        title: `Team Overboard: How to get your team back in the boat`,
+        description: `All teams get tossed about at times and lose their momentum. The question isn’t if it happens, it is when it happens.`,
+        image: TeamOverboardFull,
+        paragraphs: [
+            `All teams get tossed about at times and lose their momentum. It could be a staffing shortage, a manager change or a pandemic causing the problems. The question isn’t if it happens, it is when it happens. Has it happened to your team? Leaders must learn how to assess their team’s current momentum and bring the team back toward the goal of compassionate patient-centered care. In this webinar, you will learn to recognize current levels of engagement, steps to regain momentum and how to build resilient teams for the next time your team’s boat is rocked.`,
+        ],
+    },
+    {
+        id: WorkshopId.RecoverRebuild,
+        title: `Recover, Rebuild, Restructure, Release: How to Unleash the Team for Healthcare’s New Day`,
+        description: `In the wake of epic worldwide change, the healthcare landscape has been shifted and redefined by new challenges.`,
+        image: RebuildFull,
+        paragraphs: [
+            `It was the year that changed the world. In the wake of epic worldwide change, the healthcare landscape has been shifted and redefined by new challenges, propelling teams into a new culture of working together. In this interactive session, we will look into the strategy of adjusting our approach to rebuilding both leaders and frontline staff.`,
+            `Regaining trust, validating change and recognizing what has been accomplished are just the beginning. New strategies and structures are what is needed to reimagine and reinvent our new “possible”. Utilizing interactive polling and “pair and share” discussion and exercises, participants will walk away with a 4 step plan to engage and unleash the power of their team.`,
+        ],
+    },
     {
         id: WorkshopId.TemperamentTeam,
         title: `Temperament and Team Performance`,

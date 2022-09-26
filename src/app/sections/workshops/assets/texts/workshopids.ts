@@ -1,4 +1,6 @@
 export enum WorkshopId {
+    TeamOverboard = "Team Overboard",
+    RecoverRebuild = "Recover Rebuild",
     TemperamentTeam = "Temperament and Team Performance",
     ActivatingFrontline = "Activating and Engaging the Frontline Voice",
     EmployingStrategies = "Employing Strategies for Lasting Cultural Change",

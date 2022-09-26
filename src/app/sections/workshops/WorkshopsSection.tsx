@@ -60,7 +60,6 @@ export function WorkshopsSection() {
                                 title={availableWorkshop.title}
                                 description={availableWorkshop.description}
                                 thumbnail={availableWorkshop.thumbnail}
-                                fullImage={availableWorkshop.fullImage}
                                 onClickLearnMore={onClickLearnMore}
                             />
                         ))}

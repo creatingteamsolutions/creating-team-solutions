@@ -1,7 +1,9 @@
 import AstoriaThumbnail from "../images/astoria.jpg";
 import BendThumbnail from "../images/bend.jpg";
+import Bend2022 from "../images/bend2022.jpg";
 import MichiganThumbnail from "../images/detroit.jpg";
 import IndianaThumbnail from "../images/indianapolis.jpg";
+import Missouri2022 from "../images/missouri2022.jpg";
 import LouisianaThumbnail from "../images/neworleans.jpg";
 import NewportThumbnail from "../images/newport.jpg";
 import PortlandPaitentThumbnail from "../images/oregonpaitent.jpg";
@@ -19,7 +21,19 @@ export interface ExperienceDetail {
 
 export const experienceDetails: ExperienceDetail[] = [
     {
-        years: `2018 - 2019`,
+        years: `2022`,
+        hostingOrganization: `St. Charles Health System Master Trainer Conference`,
+        location: `Oregon`,
+        locationImage: Bend2022,
+    },
+    {
+        years: `2021`,
+        hostingOrganization: `St. Louis Patient Safety and Quality Symposium`,
+        location: `Missouri`,
+        locationImage: Missouri2022,
+    },
+    {
+        years: `2018, 2019, 2022`,
         hostingOrganization: `AHA Team Training National Conference`,
         location: `California, Texas`,
         locationImage: TexasThumbnail,
